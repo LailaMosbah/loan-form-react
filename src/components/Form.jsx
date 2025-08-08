@@ -41,6 +41,13 @@ export default function Form() {
     } else {
       color = "green";
       message = "Your Request is Submitted Successfully";
+      setLoanInputs({
+        name: "",
+        phone: "",
+        age: "",
+        isEmployee: false,
+        salaryRange: "",
+      });
     }
 
     setShowModal({ show: true, message: message, colorMessage: color });
