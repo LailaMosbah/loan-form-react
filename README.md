@@ -1,4 +1,3 @@
-```
 # 🏦 Loan Request Form
 
 A simple and responsive loan request form built using **React**. It includes client-side validation and provides immediate feedback to the user through a modal window.
@@ -7,7 +6,7 @@ A simple and responsive loan request form built using **React**. It includes cli
 
 ## 🚀 Features
 
-- 🔒 Form validation:
+- 🔒 **Form validation:**
   - Name, Age, and Phone Number are required
   - Age must be a number between 17 and 80
   - Phone must be a number with 11–13 digits
@@ -28,7 +27,7 @@ A simple and responsive loan request form built using **React**. It includes cli
 
 ## 📂 Project Structure
 
-
+```
 src/
 ├── components/
 │   ├── Form.jsx
@@ -37,31 +36,31 @@ src/
 │   ├── form.css
 │   └── modal.css
 └── App.jsx
-
+```
 
 ---
 
 ## 🧪 How to Use
 
-1. Clone the repository:
+1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/loan-request-form.git
-   cd loan-request-form
+   git clone https://github.com/LailaMosbah/loan-form-react.git
+   cd loan-form-react
+   ```
 
-
-2. Install dependencies:
+2. **Install dependencies:**
 
    ```bash
    npm install
-   
+   ```
 
-3. Run the development server:
+3. **Run the development server:**
 
    ```bash
-   npm run start
+   npm start
+   ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
-```
