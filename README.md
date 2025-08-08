@@ -1,12 +1,69 @@
-# React + Vite
+```
+# 🏦 Loan Request Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive loan request form built using **React**. It includes client-side validation and provides immediate feedback to the user through a modal window.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔒 Form validation:
+  - Name, Age, and Phone Number are required
+  - Age must be a number between 17 and 80
+  - Phone must be a number with 11–13 digits
+  - If the user is an employee, salary range must be selected
+  - If a salary range is selected, the employee checkbox must be checked
+- ✅ Displays appropriate messages based on input validation
+- 💬 Modal popup with success or error message
+- 🖥️ Responsive and styled with custom CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- React
+- CSS (custom styling)
+
+---
+
+## 📂 Project Structure
+
+```
+
+src/
+├── components/
+│   ├── Form.jsx
+│   └── Modal.jsx
+├── styles/
+│   ├── form.css
+│   └── modal.css
+└── App.jsx
+
+````
+
+---
+
+## 🧪 How to Use
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/loan-request-form.git
+   cd loan-request-form
+````
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
